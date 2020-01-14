@@ -9,18 +9,21 @@ public class Ojo
 {
   public static void main (String[]args)
   {
-   boolean ojo=true;
-   while(ojo)
+   boolean b=false;
+   String m="ojo";
+   while(!b)
    {
     Scanner sc=new Scanner(System.in);
     String s=sc.nextLine();
-    if(s.equals(ojo))
+    if(s.equals(m))
     {
        System.out.println("ojoooooooooo");
-       ojo=false;
+       b=true;
     }
-    System.out.println("indique la palabra correcta");
+    else {
+      System.out.println("indique la palabra correcta");
     
+    }
    }
    
     }
