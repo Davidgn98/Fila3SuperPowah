@@ -27,7 +27,7 @@ public class anvorguesa
      */
     public void anvorguesaParaElMichi()
     {
-        for(int i=0;i<10;i++)
+        for(int i=0;i<11;i++)
         {
           System.out.println("el michi quiere anvorguesa");
         }
