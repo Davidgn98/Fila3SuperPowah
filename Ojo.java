@@ -24,4 +24,8 @@ public class Ojo
    }
    
     }
+  public void ewe()
+  {
+      System.out.println("awa");
+  }
 }
