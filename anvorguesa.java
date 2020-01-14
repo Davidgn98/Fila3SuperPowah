@@ -32,11 +32,4 @@ public class anvorguesa
           System.out.println("el michi quiere anvorguesa");
         }
     }
-    public void anvorguesaParaPablo()
-    {
-       for(int i=0;i<10;i++)
-        {
-          System.out.println("Pablo quiere anvorguesa de Raquel");
-        }
-    }
 }
