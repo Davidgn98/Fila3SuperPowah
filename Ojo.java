@@ -7,28 +7,28 @@ import java.util.Scanner;
  */
 public class Ojo
 {
-  public static void main (String[]args)
-  {
-   boolean b=false;
-   String m="ojo";
-   while(!b)
-   {
-    Scanner sc=new Scanner(System.in);
-    String s=sc.nextLine();
-    if(s.equals(m))
+    public static void main (String[]args)
     {
-       System.out.println("ojoooooooooo");
-       b=true;
+        boolean b=true;
+        String m="ojo";
+        while(b)
+        {
+            Scanner sc=new Scanner(System.in);
+            String s=sc.nextLine();
+            if(s.equals(m))
+            {
+                System.out.println("ojoooooooooo");
+                b=false;
+            }
+            else {
+                System.out.println("indique la palabra correcta");
+
+            }
+        }
     }
-    else {
-      System.out.println("indique la palabra correcta");
-    
+
+    public void ewe()
+    {
+        System.out.println("awa");
     }
-   }
-   
-    }
-  public void ewe()
-  {
-      System.out.println("awa");
-  }
 }
