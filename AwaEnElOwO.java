@@ -20,7 +20,7 @@ public class AwaEnElOwO
     /**
      * Esta método te pide que metas algo por teclado. Dependiendo de lo que pongas, devuelve cosas diferentes.
      * 
-     * @param name, es una cadena que se introduce por un escaner
+     * @param name es una cadena que se introduce por un escaner
      * 
      * @return devuelve una cadena, dependiendo de la cadena introducida
      */
